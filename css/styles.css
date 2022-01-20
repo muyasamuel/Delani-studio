@@ -17,6 +17,17 @@ body{
     margin-top: 6%;
     
 }
+.mouse{
+    top: 0;
+    position: relative;
+    transition: top ease 0.5s;
+  
+    
+}
+.mouse:hover{
+    top: -20px;
+
+}
 
 .space{
     padding: 5%;
