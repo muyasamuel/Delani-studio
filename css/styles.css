@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body{
+    font-family: "Poppins";
+}
+.first{
+    background-image: url(../IP3/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*color: white;*/
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.first-page{
+    margin-top: 6%;
+    
+}
+
+.space{
+    padding: 5%;
+}
+.about p{
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 0.5%;
+}
+.services{
+   
+    height: 65vh;
+    font-size: large;
+    font-weight: 500;
+}
+.services div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.whatWeDo{
+    margin-top: 5%;
+}
+.designImg, .developmentImg, .productImg{
+    cursor: pointer;
+}
+
+.DesignWording,.DevelopmentWording, .ProductWording{
+    display: none;
+    background-color: slategray;
+    transition:  opacity 1s ease-in;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.DesignWording.active,.DevelopmentWording.active, .ProductWording.active{
+    display: block;
+    opacity: 1;
+}
+
+.portfolio1{
+    width: 236px;
+    height: 170px;
+    position: relative;
+    margin: 1%;
+} 
+.portfolio img{
+    width: 100%;
+    height: 100%;
+    /* padding: 4%;
+    padding-bottom: 7%; */
+    display: block;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 0, 0,0.7);
+    color: white; 
+    display: none;
+}
+
+.overlay div{
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    border: 2px solid white;
+}
+.one{
+    position: absolute;
+}
+.contact{
+    background-color: darkorange;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%
+    
+}
+::placeholder{
+    color: #fff;
+}
+input{
+    background: transparent;
+    margin: 3%;
+    outline: none;
+    border-color: white;
+    color: slateblue;
+
+}
+textarea{
+    background: transparent;
+    border-color: white;
+    margin-left: 3%;
+    color: white;
+}
+button{
+    margin: 2%
+}
+.socials div{
+    margin: 1%;
+}
+
