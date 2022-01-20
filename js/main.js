@@ -30,3 +30,48 @@ product.onclick = function(){
 
 
 }
+
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
+const submit = document.querySelector(".btn-primary");
+
+
+submit.addEventListener("click", (e) =>{
+    e.preventDefault();
+    inputExist();
+});
+
+function inputExist(){
+    let nameInput = name.value;
+    let emailInput = email.value;
+    let messageInput = message.value;
+
+    if(nameInput == "" || emailInput == "" || messageInput == "" ){
+        alert("please fill in your credentials!!!");
+    }
+    else{
+        alert(nameInput + "" + "We have received your message." + "" + "Thank you for reaching us to us");
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
